@@ -1,0 +1,41 @@
+{
+  "name": "rpscript-api-request",
+  "version": "0.1.0",
+  "description": "RPScript API for request",
+  "keywords": [
+    "api",
+    "rpa",
+    "rpscript",
+    "request"
+  ],
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "license": "Apache-2.0",
+  "author": "James Chong",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wei3hua2/rpscript-api-request.git"
+  },
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc",
+    "test": "mocha -r ts-node/register test/**.ts",
+    "publish": "tsc && npm publish"
+  },
+  "dependencies": {
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "rpscript-interface": "^0.5.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/glob": "^5.0.35",
+    "@types/node": "^10.5.1",
+    "@types/request": "^2.47.1",
+    "@types/request-promise": "^4.1.41",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "ts-node": "^6.0.5",
+    "typescript": "^2.8.3"
+  }
+}
