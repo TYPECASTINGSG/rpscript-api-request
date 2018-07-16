@@ -1,5 +1,5 @@
 {
-  "name": "rpscript-api-request",
+  "name": "@typecasting/rpscript-api-request",
   "version": "0.1.0",
   "description": "RPScript API for request",
   "keywords": [
@@ -25,7 +25,7 @@
   "dependencies": {
     "request": "^2.87.0",
     "request-promise": "^4.2.2",
-    "rpscript-interface": "^0.5.3"
+    "rpscript-interface": "^0.6.1"
   },
   "devDependencies": {
     "@types/chai": "^4.1.4",

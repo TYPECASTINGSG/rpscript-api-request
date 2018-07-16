@@ -1,10 +1,9 @@
-/**
- * @module Request
- */
-
 import requestPromise from 'request-promise';
 import {RpsContext,RpsModule,rpsAction} from 'rpscript-interface';
 
+/** Request Module
+ * @namespace Request 
+*/
 @RpsModule("request")
 export default class RPSRequest {
 
